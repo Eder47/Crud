@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <h1>
+                Detalles
+            </h1>
+        </div>
+        <div class="card-body">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th style="margin-left: 10px;">Apellido</th>
+                        <th style="margin-left: 10px;">ID</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="text-center">
+                        <td>{{persona.name}}</td>
+                        <td style="margin-left: 10px;">{{persona.apellidos}}</td>
+                        <td style="margin-left: 10px;">{{persona.id}}</td>
+                    </tr>
+                    <br>
+                    <button (click)="volver()" class="btn btn-success">Volver</button>
+                    <tr>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
